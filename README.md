@@ -85,22 +85,24 @@ root 'recipes#index'
 
 ## Running the tests
 
-Includes tests just run RSpec.
+1. Install the following gems. You may already have them installed.
 
+    ```shell
+    $ gem install rspec
+    $ gem install rspec-its
+    ```
 
-## Deployment
-
-Should easily deploy to Heroku.  Instructions for that at a later date if needed.
+3. Run the rspec command from the project root directory to execute the unit tests within the spec directory.
+    
+    ```shell
+    $ rspec
+    ```
 
 ## Built With
 
 * [Ruby](https://www.ruby-lang.org/en/) - Language
 * [Ruby on Rails](https://rubyonrails.org) - MVC Framework
 * [RubyMine](https://www.jetbrains.com/ruby/) - IDE
-* [PostgreSQL](https://www.postgresql.org) - Database
-* [Devise](https://github.com/heartcombo/devise) - Authentication Gem
-* [Pundit](https://github.com/varvet/pundit) - Authorization Gem
-* [Bootstrap](https://getbootstrap.com) - Web Framework
 
 ## Contributing
 
