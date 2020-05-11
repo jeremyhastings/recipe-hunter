@@ -82,3 +82,34 @@ root 'recipes#index'
 ```shell
       <td><%= link_to sanitize(recipe["title"]), recipe["href"] %></td>
 ```
+
+## Running the tests
+
+Includes tests just run RSpec.
+
+
+## Deployment
+
+Should easily deploy to Heroku.  Instructions for that at a later date if needed.
+
+## Built With
+
+* [Ruby](https://www.ruby-lang.org/en/) - Language
+* [Ruby on Rails](https://rubyonrails.org) - MVC Framework
+* [RubyMine](https://www.jetbrains.com/ruby/) - IDE
+* [PostgreSQL](https://www.postgresql.org) - Database
+* [Devise](https://github.com/heartcombo/devise) - Authentication Gem
+* [Pundit](https://github.com/varvet/pundit) - Authorization Gem
+* [Bootstrap](https://getbootstrap.com) - Web Framework
+
+## Contributing
+
+If you want to ...
+
+## Authors
+
+* **Jeremy Hastings** - *Initial work* - [Jeremy Hastings](https://github.com/jeremyhastings/)
+
+## License
+
+This project is licensed under the GNU General Public License 3.0 License - see the [LICENSE.md](LICENSE.md) file for details
