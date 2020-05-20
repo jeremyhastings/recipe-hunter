@@ -14,7 +14,7 @@ module RecipePuppyBootstrap
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
-    config.use_mocks_please = true
+    config.use_mocks_please = false
 
   end
 end
