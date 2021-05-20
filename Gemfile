@@ -20,7 +20,7 @@ end
 
 group :test do
   gem 'rspec-rails'
-  gem 'rspec', '~> 3.9.0'
+  gem 'rspec', '~> 3.10.0'
   gem 'capybara'
   gem 'capybara-selenium'
   gem 'webdrivers', '~> 4.6', '>= 4.6.0'  
